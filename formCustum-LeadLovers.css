@@ -1,0 +1,162 @@
+.llformCustom {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  padding: 30px 20px !important;
+}
+
+.llformCustom > div {
+  padding: 8px 0 !important;
+}
+
+.llformCustom > div.hidden {
+  display: none !important;
+}
+
+.llformCustom > div > label {
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 3px;
+  margin-left: 3px;
+}
+
+.llformCustom > div > input,
+.llformCustom > div > select,
+.llformCustom > div > textarea {
+  background-color: #fff !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-sizing: border-box;
+  color: #555 !important;
+  font-family: 'open sans', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  height: 48px !important;
+  margin-top: 3px;
+  outline: none !important;
+  padding: 8px 16px !important;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+  width: 100% !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s !important;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+}
+
+.llformCustom > div > textarea {
+  height: 60px !important;
+}
+
+.llformCustom > div > div.field-error {
+  color: tomato;
+  display: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 0 0 2px;
+}
+
+.llformCustom > div > div.field-error.show {
+  display: block !important;
+}
+
+.llformCustom > div.button-bar {
+  text-align: center;
+}
+
+.llformCustom > div.button-bar > button {
+  color: #fff;
+  background-color: #333;
+  display: inline-block;
+  padding: 11px 15px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  outline: none !important;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.llformCustom > div.button-bar > button:hover {
+  background-color: #ff00ff !important;
+}
+
+.llformCustom > div.error-box {
+  background-color: white;
+  color: tomato;
+  display: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: -30px -20px !important;
+  padding: 50px 0 !important;
+  text-align: center;
+}
+
+.llformCustom > div.error-box.show {
+  display: block !important;
+}
+
+.llformCustom > div.error-box > img {
+  width: 100px;
+}
+
+.llformCustom > div.error-box > div {
+  padding: 15px 0;
+}
+
+.llformCustom > div.error-box > button {
+}
+
+.llformCustom > div.loading-box {
+  background-color: white;
+  color: #828282;
+  display: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: -30px -20px !important;
+  padding: 50px 0 !important;
+  text-align: center;
+}
+
+.llformCustom > div.loading-box.show {
+  display: block !important;
+}
+
+.llformCustom > div.loading-box > img {
+  width: 100px;
+}
+
+.llformCustom > div.loading-box > div {
+  padding: 15px 0;
+}
+
+.llformCustom > div.error-box.loading,
+.llformCustom > div.loading-box.loading {
+  display: block !important;
+}
+
+.llformCustom .radio,
+.llformCustom .checkbox {
+  display: block !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  min-height: 20px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  vertical-align: middle !important;
+}
