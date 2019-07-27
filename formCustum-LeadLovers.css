@@ -1,10 +1,11 @@
 .llformCustom {
   background-color: rgba(0, 0, 0, 0.1) !important;
-  padding: 30px 20px !important;
+  padding: 0px !important;
 }
 
 .llformCustom > div {
-  padding: 8px 0 !important;
+  padding: 0px !important;
+  margin: 4px !important;
 }
 
 .llformCustom > div.hidden {
@@ -13,7 +14,7 @@
 
 .llformCustom > div > label {
   color: #333;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'open sans';
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 3px;
@@ -29,7 +30,7 @@
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
   box-sizing: border-box;
   color: #555 !important;
-  font-family: 'open sans', sans-serif !important;
+  font-family: 'open sans' !important;
   font-size: 14px !important;
   font-weight: 400 !important;
   height: 48px !important;
@@ -50,7 +51,7 @@
 .llformCustom > div > div.field-error {
   color: tomato;
   display: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'open sans';
   font-size: 12px;
   font-weight: 400;
   padding: 5px 0 0 2px;
@@ -62,13 +63,14 @@
 
 .llformCustom > div.button-bar {
   text-align: center;
+  margin: 4px !important;
 }
 
 .llformCustom > div.button-bar > button {
   color: #fff;
   background-color: #333;
   display: inline-block;
-  padding: 11px 15px;
+  padding: 0px;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 400;
@@ -89,15 +91,33 @@
   border-radius: 4px;
 }
 
-.llformCustom > div.button-bar > button:hover {
-  background-color: #ff00ff !important;
+.widget-overlay {
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-overlay:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  -webkit-transition-duration: 0.3s !important;
+  -moz-transition-duration: 0.3s !important;
+  -o-transition-duration: 0.3s !important;
+  transition-duration: 0.3s !important;
 }
 
 .llformCustom > div.error-box {
   background-color: white;
   color: tomato;
   display: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'open sans';
   font-size: 22px;
   font-weight: 400;
   margin: -30px -20px !important;
@@ -124,7 +144,7 @@
   background-color: white;
   color: #828282;
   display: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'open sans';
   font-size: 22px;
   font-weight: 400;
   margin: -30px -20px !important;
@@ -152,7 +172,7 @@
 .llformCustom .radio,
 .llformCustom .checkbox {
   display: block !important;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'open sans';
   font-size: 14px;
   font-weight: 400;
   min-height: 20px !important;
